@@ -1,0 +1,172 @@
+=== Initialization Error ===
+Error: Unsupported operation: _Namespace
+Stack trace: dart-sdk/lib/_internal/js_dev_runtime/private/ddc_runtime/errors.dart 274:3       throw_
+dart-sdk/lib/_internal/js_dev_runtime/patch/io_patch.dart 217:5                   get _namespacePointer
+dart-sdk/lib/io/file_impl.dart 279:48                                             _namespacePointer
+dart-sdk/lib/io/file_impl.dart 282:15                                             _dispatchWithNamespace
+dart-sdk/lib/io/directory_impl.dart 97:8                                          exists
+package:smartino/core/config/dev_settings.dart 54:48                              <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 623:19               <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 648:23               <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 542:3                _asyncStartSync
+package:smartino/core/config/dev_settings.dart 50:31                              validateModelPaths
+package:smartino/core/config/app_initializer.dart 54:43                           <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 623:19               <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 648:23               <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 594:19               <fn>
+dart-sdk/lib/async/zone.dart 1849:54                                              runUnary
+dart-sdk/lib/async/future_impl.dart 222:18                                        handleValue
+dart-sdk/lib/async/future_impl.dart 948:44                                        handleValueCallback
+dart-sdk/lib/async/future_impl.dart 977:13                                        _propagateToListeners
+dart-sdk/lib/async/future_impl.dart 720:5                                         [_completeWithValue]
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 504:7                complete
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 571:12               _asyncReturn
+package:smartino/core/config/dev_settings.dart 125:3                              <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 623:19               <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 648:23               <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 594:19               <fn>
+dart-sdk/lib/async/zone.dart 1849:54                                              runUnary
+dart-sdk/lib/async/future_impl.dart 222:18                                        handleValue
+dart-sdk/lib/async/future_impl.dart 948:44                                        handleValueCallback
+dart-sdk/lib/async/future_impl.dart 977:13                                        _propagateToListeners
+dart-sdk/lib/async/future_impl.dart 720:5                                         [_completeWithValue]
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 504:7                complete
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 571:12               _asyncReturn
+package:hive/src/box/box_base_impl.dart 114:3                                     <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 623:19               <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 648:23               <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 594:19               <fn>
+dart-sdk/lib/async/zone.dart 1849:54                                              runUnary
+dart-sdk/lib/async/future_impl.dart 222:18                                        handleValue
+dart-sdk/lib/async/future_impl.dart 948:44                                        handleValueCallback
+dart-sdk/lib/async/future_impl.dart 977:13                                        _propagateToListeners
+dart-sdk/lib/async/future_impl.dart 720:5                                         [_completeWithValue]
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 504:7                complete
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 571:12               _asyncReturn
+package:hive/src/box/box_impl.dart 96:3                                           <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 623:19               <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 648:23               <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 594:19               <fn>
+dart-sdk/lib/async/zone.dart 1849:54                                              runUnary
+dart-sdk/lib/async/future_impl.dart 222:18                                        handleValue
+dart-sdk/lib/async/future_impl.dart 948:44                                        handleValueCallback
+dart-sdk/lib/async/future_impl.dart 977:13                                        _propagateToListeners
+dart-sdk/lib/async/future_impl.dart 720:5                                         [_completeWithValue]
+dart-sdk/lib/async/future_impl.dart 804:7                                         <fn>
+dart-sdk/lib/async/schedule_microtask.dart 40:34                                  _microtaskLoop
+dart-sdk/lib/async/schedule_microtask.dart 49:5                                   _startMicrotaskLoop
+dart-sdk/lib/_internal/js_dev_runtime/private/ddc_runtime/operations.dart 118:77  tear
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 188:69               <fn>
+
+===========================
+Got interaction_logs box reference
+Could not get child_profile box: HiveError: The box "child_profile" is already open and of type Box<ChildProfile>.
+Got game_settings box reference
+══╡ EXCEPTION CAUGHT BY FOUNDATION LIBRARY ╞════════════════════════════════════════════════════════
+The following assertion was thrown while dispatching notifications for StorageService:
+setState() or markNeedsBuild() called during build.
+This _InheritedProviderScope<StorageService?> widget cannot be marked as needing to build because
+the framework is already in the process of building widgets. A widget can be marked as needing to be
+built during the build phase only if one of its ancestors is currently building. This exception is
+allowed because the framework builds parent widgets before children, which means a dirty descendant
+will always be built. Otherwise, the framework might not visit this widget during this build phase.
+The widget on which setState() or markNeedsBuild() was called was:
+  _InheritedProviderScope<StorageService?>
+The widget which was currently being built when the offending call was made was:
+  Builder
+
+When the exception was thrown, this was the stack:
+dart-sdk/lib/_internal/js_dev_runtime/private/ddc_runtime/errors.dart 274:3       throw_
+package:flutter/src/widgets/framework.dart 5279:9                                 <fn>
+package:flutter/src/widgets/framework.dart 5290:14                                markNeedsBuild
+package:provider/src/inherited_provider.dart 590:5                                markNeedsNotifyDependents
+dart-sdk/lib/_internal/js_dev_runtime/private/ddc_runtime/operations.dart 118:77  tear
+package:flutter/src/foundation/change_notifier.dart 435:24                        notifyListeners
+package:smartino/services/storage_service.dart 51:7                               <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 623:19               <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 648:23               <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 542:3                _asyncStartSync
+package:smartino/services/storage_service.dart 17:16                              initialize
+package:smartino/screens/splash_screen.dart 48:25                                 <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 623:19               <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 648:23               <fn>
+dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 542:3                _asyncStartSync
+package:smartino/screens/splash_screen.dart 43:16                                 [_initializeApp]
+package:smartino/screens/splash_screen.dart 40:5                                  initState
+package:flutter/src/widgets/framework.dart 5852:55                                [_firstBuild]
+package:flutter/src/widgets/framework.dart 5699:5                                 mount
+...     Normal element mounting (228 frames)
+package:flutter/src/widgets/framework.dart 4548:15                                inflateWidget
+package:flutter/src/widgets/framework.dart 7169:36                                inflateWidget
+package:flutter/src/widgets/framework.dart 7185:32                                mount
+...     Normal element mounting (479 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:provider/src/inherited_provider.dart 424:11                               mount
+...     Normal element mounting (7 frames)
+package:nested/nested.dart 222:11                                                 mount
+...     Normal element mounting (7 frames)
+package:nested/nested.dart 187:11                                                 mount
+...     Normal element mounting (7 frames)
+package:nested/nested.dart 222:11                                                 mount
+...     Normal element mounting (13 frames)
+package:flutter_riverpod/src/framework.dart 315:11                                mount
+...     Normal element mounting (71 frames)
+package:flutter/src/widgets/framework.dart 4548:15                                inflateWidget
+package:flutter/src/widgets/framework.dart 4004:18                                updateChild
+package:flutter/src/widgets/view.dart 481:16                                      [_updateChild]
+package:flutter/src/widgets/view.dart 504:5                                       mount
+...     Normal element mounting (15 frames)
+package:flutter/src/widgets/framework.dart 4548:15                                inflateWidget
+package:flutter/src/widgets/framework.dart 4004:18                                updateChild
+package:flutter/src/widgets/binding.dart 1716:16                                  [_rebuild]
+package:flutter/src/widgets/binding.dart 1685:5                                   mount
+package:flutter/src/widgets/binding.dart 1638:16                                  <fn>
+package:flutter/src/widgets/framework.dart 3046:11                                buildScope
+package:flutter/src/widgets/binding.dart 1637:12                                  attach
+package:flutter/src/widgets/binding.dart 1376:26                                  attachToBuildOwner
+package:flutter/src/widgets/binding.dart 1361:5                                   attachRootWidget
+package:flutter/src/widgets/binding.dart 1347:7                                   <fn>
+dart-sdk/lib/_internal/js_dev_runtime/private/isolate_helper.dart 47:11           internalCallback
+
+The StorageService sending notification was:
+  Instance of 'StorageService'
+════════════════════════════════════════════════════════════════════════════════════════════════════
+StorageService initialized successfully
+Game progress loaded

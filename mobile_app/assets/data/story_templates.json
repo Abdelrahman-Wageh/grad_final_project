@@ -1,0 +1,192 @@
+{
+  "animals": {
+    "words": [
+      "cat",
+      "dog",
+      "bird",
+      "fish",
+      "rabbit",
+      "elephant",
+      "lion",
+      "monkey",
+      "bear",
+      "fox",
+      "قطة",
+      "كلب",
+      "عصفور",
+      "سمكة",
+      "أرنب",
+      "فيل",
+      "أسد",
+      "قرد",
+      "دب",
+      "ثعلب"
+    ],
+    "templates": [
+      "Smartino sees a [BLANK] in the forest!",
+      "The [BLANK] is playing with Smartino.",
+      "Look! A friendly [BLANK] wants to say hello!",
+      "Smartino found a [BLANK] near the river.",
+      "The little [BLANK] is looking for food."
+    ],
+    "templates_ar": [
+      "سمارتينو يرى [BLANK] في الغابة!",
+      "[BLANK] يلعب مع سمارتينو.",
+      "انظر! [BLANK] ودود يريد أن يقول مرحبا!",
+      "سمارتينو وجد [BLANK] بالقرب من النهر.",
+      "[BLANK] الصغير يبحث عن الطعام."
+    ]
+  },
+  "colors": {
+    "words": [
+      "red",
+      "blue",
+      "green",
+      "yellow",
+      "purple",
+      "orange",
+      "pink",
+      "brown",
+      "black",
+      "white",
+      "أحمر",
+      "أزرق",
+      "أخضر",
+      "أصفر",
+      "بنفسجي",
+      "برتقالي",
+      "وردي",
+      "بني",
+      "أسود",
+      "أبيض"
+    ],
+    "templates": [
+      "Smartino loves the [BLANK] flower!",
+      "The sky is [BLANK] today.",
+      "Look at the [BLANK] butterfly!",
+      "Smartino painted a [BLANK] picture.",
+      "The [BLANK] ball is so pretty!"
+    ],
+    "templates_ar": [
+      "سمارتينو يحب الزهرة [BLANK]!",
+      "السماء [BLANK] اليوم.",
+      "انظر إلى الفراشة [BLANK]!",
+      "سمارتينو رسم صورة [BLANK].",
+      "الكرة [BLANK] جميلة جداً!"
+    ]
+  },
+  "adjectives": {
+    "words": [
+      "big",
+      "small",
+      "happy",
+      "sad",
+      "fast",
+      "slow",
+      "beautiful",
+      "strong",
+      "kind",
+      "brave",
+      "كبير",
+      "صغير",
+      "سعيد",
+      "حزين",
+      "سريع",
+      "بطيء",
+      "جميل",
+      "قوي",
+      "لطيف",
+      "شجاع"
+    ],
+    "templates": [
+      "Smartino feels [BLANK] today!",
+      "The [BLANK] tree is in the garden.",
+      "What a [BLANK] day!",
+      "Smartino is very [BLANK].",
+      "The [BLANK] friend helped Smartino."
+    ],
+    "templates_ar": [
+      "سمارتينو يشعر [BLANK] اليوم!",
+      "الشجرة [BLANK] في الحديقة.",
+      "يا له من يوم [BLANK]!",
+      "سمارتينو [BLANK] جداً.",
+      "الصديق [BLANK] ساعد سمارتينو."
+    ]
+  },
+  "actions": {
+    "words": [
+      "jump",
+      "run",
+      "swim",
+      "fly",
+      "dance",
+      "sing",
+      "play",
+      "eat",
+      "sleep",
+      "laugh",
+      "يقفز",
+      "يجري",
+      "يسبح",
+      "يطير",
+      "يرقص",
+      "يغني",
+      "يلعب",
+      "يأكل",
+      "ينام",
+      "يضحك"
+    ],
+    "templates": [
+      "Smartino loves to [BLANK]!",
+      "Can you [BLANK] like Smartino?",
+      "Let's [BLANK] together!",
+      "Smartino wants to [BLANK] now.",
+      "It's fun to [BLANK] with friends!"
+    ],
+    "templates_ar": [
+      "سمارتينو يحب أن [BLANK]!",
+      "هل يمكنك [BLANK] مثل سمارتينو؟",
+      "دعنا [BLANK] معاً!",
+      "سمارتينو يريد أن [BLANK] الآن.",
+      "من الممتع أن [BLANK] مع الأصدقاء!"
+    ]
+  },
+  "objects": {
+    "words": [
+      "ball",
+      "book",
+      "toy",
+      "star",
+      "moon",
+      "sun",
+      "tree",
+      "flower",
+      "house",
+      "car",
+      "كرة",
+      "كتاب",
+      "لعبة",
+      "نجمة",
+      "قمر",
+      "شمس",
+      "شجرة",
+      "زهرة",
+      "بيت",
+      "سيارة"
+    ],
+    "templates": [
+      "Smartino found a [BLANK]!",
+      "The [BLANK] is shining bright.",
+      "Look at the beautiful [BLANK]!",
+      "Smartino plays with the [BLANK].",
+      "The [BLANK] is very special."
+    ],
+    "templates_ar": [
+      "سمارتينو وجد [BLANK]!",
+      "[BLANK] يلمع بشدة.",
+      "انظر إلى [BLANK] الجميل!",
+      "سمارتينو يلعب مع [BLANK].",
+      "[BLANK] مميز جداً."
+    ]
+  }
+}

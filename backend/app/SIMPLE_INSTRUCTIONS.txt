@@ -1,0 +1,54 @@
+═══════════════════════════════════════════════════════════════
+  🎮 HOW TO SEE THE GAME INTERFACE - SIMPLE INSTRUCTIONS
+═══════════════════════════════════════════════════════════════
+
+STEP 1: INSTALL FLUTTER
+───────────────────────
+1. Go to: https://docs.flutter.dev/get-started/install/windows
+2. Download Flutter SDK (ZIP file)
+3. Extract to: C:\src\flutter
+4. Add to PATH: C:\src\flutter\bin
+   (System Properties → Environment Variables → Path → Add)
+5. RESTART your terminal/PowerShell
+6. Test: flutter --version (should show version)
+
+STEP 2: GET DEPENDENCIES
+────────────────────────
+Open PowerShell in this directory and run:
+  cd ..\..\mobile_app
+  flutter pub get
+
+STEP 3: START BACKEND
+──────────────────────
+Open a NEW terminal and run:
+  cd backend\app
+  python main.py
+Keep this terminal open!
+
+STEP 4: RUN GAME
+────────────────
+In the original terminal:
+  cd ..\..\mobile_app
+  flutter run -d chrome
+
+That's it! Chrome will open with the game interface!
+
+═══════════════════════════════════════════════════════════════
+TROUBLESHOOTING:
+═══════════════════════════════════════════════════════════════
+
+❌ "flutter: command not found"
+   → Restart terminal after adding to PATH
+
+❌ "Build failed"
+   → Run: flutter clean
+   → Then: flutter pub get
+   → Then: flutter run -d chrome
+
+❌ "Backend connection error"
+   → Make sure python main.py is running
+   → Check: http://127.0.0.1:8000/docs (should work)
+
+═══════════════════════════════════════════════════════════════
+
+

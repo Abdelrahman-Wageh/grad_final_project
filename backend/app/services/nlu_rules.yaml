@@ -1,0 +1,98 @@
+# NLU Rules Configuration for Whispering Woods
+# Editable YAML file for non-ML developers to customize responses
+# Deterministic rule-based system (no generative LLMs)
+
+patterns:
+  greeting:
+    triggers:
+      - "أهلاً"
+      - "مرحباً"
+      - "سلام"
+      - "إزيك"
+      - "صباح الخير"
+      - "مساء الخير"
+    responses:
+      default: "WELCOME_GREETING"
+  
+  help_request:
+    triggers:
+      - "مش فاهم"
+      - "مش عارف"
+      - "ساعد"
+      - "مساعدة"
+      - "عايز مساعدة"
+      - "محتاج مساعدة"
+      - "مش عارف إيه"
+    responses:
+      NUMBER_GATE_PUZZLE: "NUMBER_HINT_1"
+      FOREST_ADVENTURE: "FOREST_HINT_1"
+      COLOR_LEARNING: "COLOR_HINT_1"
+      SHAPE_LEARNING: "SHAPE_HINT_1"
+      DRAWING_GAME: "DRAWING_HINT_1"
+      default: "GENERAL_HELP"
+  
+  confusion:
+    triggers:
+      - "مش عارف"
+      - "إيه ده"
+      - "مش فاهم إيه"
+      - "إيه يعني"
+    responses:
+      default: "CLARIFICATION"
+  
+  affirmation:
+    triggers:
+      - "أيوه"
+      - "تمام"
+      - "صح"
+      - "ماشي"
+      - "أوكي"
+      - "حاضر"
+    responses:
+      default: "ENCOURAGEMENT"
+  
+  frustration:
+    triggers:
+      - "صعب"
+      - "مش قادر"
+      - "تعبت"
+      - "مش عارف أعمل إيه"
+    responses:
+      default: "ENCOURAGEMENT_AND_HINT"
+  
+  celebration_request:
+    triggers:
+      - "خلصت"
+      - "عملتها"
+      - "نجحت"
+      - "كملت"
+    responses:
+      default: "CELEBRATION"
+
+responses:
+  WELCOME_GREETING: "أهلاً وسهلاً! أنا صديقك في رحلة الغابة السحرية! هيا نبدأ المغامرة!"
+  
+  NUMBER_HINT_1: "بص كويس جنب الشلال يا بطل! الأرقام موجودة هناك!"
+  NUMBER_HINT_2: "الأرقام مرتبة من واحد لعشرة! ابحث عنهم بترتيب!"
+  
+  FOREST_HINT_1: "انظر بين الأشجار! هناك شيء مميز ينتظرك!"
+  FOREST_HINT_2: "الحيوانات صديقة! اسألهم عن المساعدة!"
+  
+  COLOR_HINT_1: "الألوان موجودة في كل مكان! انظر حولك بعناية!"
+  
+  SHAPE_HINT_1: "الأشكال الهندسية موجودة في الطبيعة! ابحث عن الدوائر والمربعات!"
+  
+  DRAWING_HINT_1: "استخدم خيالك! لا توجد أخطاء في الفن! ارسم بحرية!"
+  
+  GENERAL_HELP: "لا تقلق! أنا هنا لمساعدتك. قولي محتاج إيه بالظبط؟"
+  
+  CLARIFICATION: "حبيبي، إيه اللي مش واضح؟ قولي عايز أعرف إيه بالظبط؟"
+  
+  ENCOURAGEMENT: "ممتاز! أنت بطل! كمل كده! أنا فخور بيك!"
+  
+  ENCOURAGEMENT_AND_HINT: "لا تقلق! كلنا بنتعلم. دعني أساعدك... انظر جيداً حولك!"
+  
+  CELEBRATION: "واو! برافو عليك! أنت فعلت ذلك! أنت بطل حقيقي!"
+
+fallback: "عذراً، لم أفهم. ممكن تقول تاني؟ أو قولي محتاج مساعدة!"
+

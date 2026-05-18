@@ -1,0 +1,46 @@
+# Whispering Woods Backend Requirements
+# FastAPI and core dependencies
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# CORS is built into FastAPI (from starlette)
+
+# Audio Processing (for placeholder TTS)
+numpy==1.24.3
+scipy==1.11.4
+
+# Image Processing (for CV placeholder)
+Pillow==10.1.0
+
+# YAML config (for NLU rules)
+PyYAML==6.0.1
+
+# Logging
+python-json-logger==2.0.7
+
+# Optional: Database (if needed for admin)
+# sqlalchemy==2.0.23
+# psycopg2-binary==2.9.9
+
+# Optional: Billing (Stripe)
+# stripe==7.5.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Development
+black==23.11.0
+ruff==0.1.6
+
+# Existing services (for adapters)
+# These are imported from ai_backend when available
+# torch==2.1.0  # For real models
+# transformers==4.35.0  # For real models
+

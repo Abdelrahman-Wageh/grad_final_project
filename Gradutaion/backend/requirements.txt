@@ -1,0 +1,61 @@
+# Whispering Woods Backend Requirements
+# FastAPI and core dependencies
+
+# Web Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart==0.0.6
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+
+# CORS is built into FastAPI (from starlette)
+
+# System Monitoring
+psutil>=5.9.0
+
+# Audio Processing (for placeholder TTS)
+numpy>=1.26.0
+scipy>=1.14.0
+
+# Image Processing (for CV placeholder)
+Pillow>=10.4.0
+
+# YAML config (for NLU rules)
+PyYAML==6.0.1
+
+# Logging
+python-json-logger==2.0.7
+
+# Optional: Database (if needed for admin)
+# sqlalchemy==2.0.23
+# psycopg2-binary==2.9.9
+
+# Optional: Billing (Stripe)
+# stripe==7.5.0
+
+# Testing
+pytest>=8.3.0
+pytest-asyncio>=0.24.0
+httpx>=0.27.0
+
+# Development
+black==23.11.0
+ruff==0.1.6
+
+# Existing services (for adapters)
+# These are imported from ai_backend when available
+# torch==2.1.0  # For real models
+# transformers==4.35.0  # For real models
+
+
+
+# Fine-tuned Whisper STT Dependencies
+torch>=2.1.0
+torchaudio>=2.1.0
+transformers>=4.35.0
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Qwen LLM Dependencies (GGUF/llama.cpp for 6GB VRAM)
+llama-cpp-python>=0.2.0  # GGUF support with GPU acceleration
+accelerate>=0.25.0  # For Whisper GPU acceleration

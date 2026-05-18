@@ -1,0 +1,88 @@
+{
+  "timestamp": "2025-10-31T15:36:05.523388",
+  "python_version": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\Python314\\python.exe",
+  "dry_run": false,
+  "backend": {
+    "venv_created": true,
+    "original_requirements": [
+      "# Whispering Woods Backend Requirements",
+      "# FastAPI and core dependencies",
+      "",
+      "# Web Framework",
+      "fastapi==0.104.1",
+      "uvicorn[standard]==0.24.0",
+      "python-multipart==0.0.6",
+      "pydantic==2.5.0",
+      "pydantic-settings==2.1.0",
+      "",
+      "# CORS is built into FastAPI (from starlette)",
+      "",
+      "# Audio Processing (for placeholder TTS)",
+      "numpy==1.24.3",
+      "scipy==1.11.4",
+      "",
+      "# Image Processing (for CV placeholder)",
+      "Pillow==10.1.0",
+      "",
+      "# YAML config (for NLU rules)",
+      "PyYAML==6.0.1",
+      "",
+      "# Logging",
+      "python-json-logger==2.0.7",
+      "",
+      "# Optional: Database (if needed for admin)",
+      "# sqlalchemy==2.0.23",
+      "# psycopg2-binary==2.9.9",
+      "",
+      "# Optional: Billing (Stripe)",
+      "# stripe==7.5.0",
+      "",
+      "# Testing",
+      "pytest==7.4.3",
+      "pytest-asyncio==0.21.1",
+      "httpx==0.25.2",
+      "",
+      "# Development",
+      "black==23.11.0",
+      "ruff==0.1.6",
+      "",
+      "# Existing services (for adapters)",
+      "# These are imported from ai_backend when available",
+      "# torch==2.1.0  # For real models",
+      "# transformers==4.35.0  # For real models",
+      "",
+      ""
+    ],
+    "initial_install_failed": true,
+    "errors": [
+      "ERROR: Exception:"
+    ],
+    "version_updates": [
+      "fastapi==0.104.1 -> fastapi>=0.115.0",
+      "uvicorn[standard]==0.24.0 -> uvicorn[standard]>=0.32.0",
+      "pydantic==2.5.0 -> pydantic>=2.10.0",
+      "pydantic-settings==2.1.0 -> pydantic-settings>=2.6.0",
+      "numpy==1.24.3 -> numpy>=1.26.0",
+      "scipy==1.11.4 -> scipy>=1.14.0",
+      "Pillow==10.1.0 -> Pillow>=10.4.0",
+      "pytest==7.4.3 -> pytest>=8.3.0",
+      "pytest-asyncio==0.21.1 -> pytest-asyncio>=0.24.0",
+      "httpx==0.25.2 -> httpx>=0.27.0"
+    ],
+    "lock_file_created": true
+  },
+  "frontend": {
+    "node_version": "v22.21.0",
+    "install_failed": true
+  },
+  "flutter": {
+    "flutter_installed": false
+  },
+  "errors": [
+    "npm install: [WinError 2] The system cannot find the file specified"
+  ],
+  "warnings": [
+    "Flutter not installed - cannot resolve Flutter deps"
+  ]
+}

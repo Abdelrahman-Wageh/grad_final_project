@@ -1,0 +1,67 @@
+{
+    "os":  {
+               "architecture":  "x64",
+               "platform":  null,
+               "name":  null,
+               "version":  "10.0.26200.0"
+           },
+    "flutter":  {
+                    "installed":  false
+                },
+    "docker":  {
+                   "path":  "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe",
+                   "architecture":  "x86_64",
+                   "version":  "Docker version 28.5.1, build e180ab8"
+               },
+    "java":  {
+                 "installed":  false
+             },
+    "node":  {
+                 "version":  "v22.21.0",
+                 "path":  "C:\\Program Files\\nodejs\\node.exe"
+             },
+    "dart":  {
+
+             },
+    "python":  {
+                   "full_version":  "3.14.0",
+                   "path":  "C:\\Python314\\python.exe",
+                   "version":  "Python 3.14.0",
+                   "pip_version":  "pip 25.2 from C:\\Python314\\Lib\\site-packages\\pip (python 3.14)",
+                   "major_minor":  "3.14"
+               },
+    "powershell":  {
+                       "version":  "5.1.26100.6899",
+                       "edition":  "Desktop"
+                   },
+    "git":  {
+                "version":  "git version 2.51.2.windows.1",
+                "path":  "C:\\Program Files\\Git\\cmd\\git.exe"
+            },
+    "project_structure":  {
+                              "devtools":  true,
+                              "backend":  true,
+                              "frontend":  true,
+                              "mobile_app":  true
+                          },
+    "android_sdk":  {
+                        "detected":  true,
+                        "path":  "C:\\Users\\Lenovo\\AppData\\Local\\Android\\Sdk"
+                    },
+    "winget":  {
+                   "version":  "v1.11.510",
+                   "path":  "C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps\\winget.exe"
+               },
+    "npm":  {
+                "version":  "10.9.4",
+                "path":  "C:\\Program Files\\nodejs\\npm.ps1"
+            },
+    "requirement_files":  {
+                              "backend_requirements":  true,
+                              "package_json":  true,
+                              "pubspec_yaml":  true,
+                              "package_lock":  false,
+                              "pubspec_lock":  true
+                          },
+    "timestamp":  "2025-10-31 15:34:23"
+}
