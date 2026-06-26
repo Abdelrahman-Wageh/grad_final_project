@@ -1,0 +1,165 @@
+%==============================================================
+% Abdelrahman Wageh Mohamed -- Resume / CV
+% Target role: Teaching Assistant (Computer Science)
+% Profile: Computer Science graduate (AI & Data Science), E-JUST, June 2026
+% Design goal: clean, single-column, ATS-friendly (parsable plain text,
+% standard section headings, no images/columns/icons).
+%==============================================================
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[top=0.9cm,bottom=0.7cm,left=1.05cm,right=1.05cm]{geometry}
+\linespread{0.99}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+
+% --- ATS-friendly metadata ---
+\hypersetup{
+  pdftitle={Abdelrahman Wageh Mohamed - Teaching Assistant CV},
+  pdfauthor={Abdelrahman Wageh Mohamed},
+  pdfsubject={Teaching Assistant - Computer Science},
+  pdfkeywords={Teaching Assistant, Computer Science, Mathematics, Artificial Intelligence,
+               Machine Learning, Programming, Problem Solving, Python, Data Science, E-JUST}
+}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% --- Section styling (kept simple so parsers read the headings) ---
+\definecolor{accent}{HTML}{1A1A1A}
+\titleformat{\section}
+  {\large\bfseries\scshape\color{accent}}
+  {}{0em}{}[\vspace{1pt}\hrule\vspace{2pt}]
+\titlespacing{\section}{0pt}{3pt}{1pt}
+
+% Tighten list spacing
+\setlist[itemize]{leftmargin=1.3em, topsep=0pt, itemsep=0.5pt, parsep=0pt, partopsep=0pt}
+
+% Helper for an experience / education entry: {Title}{Dates}{Org}{Location}
+\newcommand{\role}[4]{%
+  \noindent\textbf{#1}\hfill\textbf{#2}\\[0.3pt]%
+  \textit{#3}\hfill\textit{#4}\par\vspace{1pt}%
+}
+
+\begin{document}
+
+%--------------------------------------------------------------
+% HEADER
+%--------------------------------------------------------------
+\begin{center}
+  {\LARGE\bfseries Abdelrahman Wageh Mohamed}\\[3pt]
+  {\normalsize Computer Science Graduate \,\textbar\, Aspiring Teaching Assistant}\\[4pt]
+  \small
+  Cairo, Egypt \,\textbar\, +20 101 319 9783 \,\textbar\,
+  \href{mailto:abdelrahamanwagieh@gmail.com}{abdelrahamanwagieh@gmail.com}\\[1pt]
+  \href{https://www.linkedin.com/in/abdelrahman-wageh-036503365/}{linkedin.com/in/abdelrahman-wageh}
+  \,\textbar\,
+  \href{https://github.com/Abdelrahman-Wageh}{github.com/Abdelrahman-Wageh}
+\end{center}
+
+%--------------------------------------------------------------
+% SUMMARY
+%--------------------------------------------------------------
+\section{Professional Summary}
+Computer Science graduate (B.Sc. in AI \& Data Science, June 2026) from the
+Egypt-Japan University of Science and Technology (E-JUST), seeking a
+\textbf{Teaching Assistant} position in Computer Science. Combines hands-on
+teaching and one-on-one tutoring experience with strong foundations in
+\textbf{mathematics}, \textbf{artificial intelligence / machine learning},
+and \textbf{programming and problem-solving}. Enjoys breaking down complex
+technical concepts into clear explanations that help students build confidence
+and master fundamentals.
+
+%--------------------------------------------------------------
+% EDUCATION
+%--------------------------------------------------------------
+\section{Education}
+\role{B.Sc. in Computer Science -- Major in AI \& Data Science}{Oct 2022 -- Jun 2026}{Egypt-Japan University of Science and Technology (E-JUST)}{Borg El Arab, Alexandria, Egypt}
+\begin{itemize}
+  \item Graduated \textbf{June 2026}, CGPA 3.2. Relevant coursework: Data Structures \& Algorithms,
+        Calculus, Linear Algebra, Probability \& Statistics, Discrete Mathematics, Machine
+        Learning, Deep Learning, and Databases.
+\end{itemize}
+
+%--------------------------------------------------------------
+% GRADUATION PROJECT
+%--------------------------------------------------------------
+\section{Graduation Project}
+\role{Smartino -- AI-Powered Educational Super-App for Children}{2025 -- 2026}{Egypt-Japan University of Science and Technology (E-JUST)}{Graduation Project}
+\begin{itemize}
+  \item Built an AI-powered learning companion for Egyptian children (ages 5--10) featuring
+        speech-to-speech conversations, an adaptive learning path, interactive games, and
+        AI-generated stories.
+  \item Integrated and orchestrated multiple AI services -- speech-to-text (Whisper), a large
+        language model (LLaMA~3.3), and text-to-speech -- behind a custom orchestration layer
+        with cloud/offline fallback, plus an adaptive difficulty system and parent dashboard.
+  \item Built the cross-platform app in \textbf{Flutter/Dart} with a \textbf{Python} backend, applying clean architecture and automated testing.
+\end{itemize}
+
+%--------------------------------------------------------------
+% TEACHING EXPERIENCE
+%--------------------------------------------------------------
+\section{Teaching Experience}
+
+\role{Junior Teaching Assistant}{Jul 2021 -- Sep 2021}{Zewail City of Science and Technology}{Giza, Egypt}
+\begin{itemize}
+  \item Provided one-on-one technical guidance to a cohort of 40+ students, simplifying
+        \textbf{Python programming} concepts and reinforcing problem-solving and debugging
+        in lab sessions; supported a class-wide 10\% increase in module completion rates.
+\end{itemize}
+
+\role{Online Tutor -- Mathematics \& English}{2024 -- Jun 2025}{Freelance}{Remote}
+\begin{itemize}
+  \item Mentored 7 individual students to an average improvement of 2 grade levels through
+        structured, personalized lesson plans and tailored practice material matched to each
+        student's pace.
+\end{itemize}
+
+%--------------------------------------------------------------
+% TECHNICAL & ACADEMIC SKILLS
+%--------------------------------------------------------------
+\section{Technical \& Academic Skills}
+\begin{itemize}
+  \item \textbf{Mathematics:} Calculus, Linear Algebra, Probability \& Statistics, Discrete Mathematics, logical reasoning.
+  \item \textbf{Artificial Intelligence \& Data Science:} Machine Learning, Deep Learning, data
+        preprocessing \& feature engineering, model evaluation, LLM/AI service integration.
+  \item \textbf{Programming \& Problem-Solving:} Python, Dart/Flutter, SQL, algorithms \& data structures, OOP.
+  \item \textbf{Tools \& Teaching:} Git/GitHub, MS Office, Power BI, Tableau, Jupyter; lesson
+        preparation, one-on-one tutoring, clear explanation of complex concepts, mentoring.
+\end{itemize}
+
+%--------------------------------------------------------------
+% ACADEMIC PROJECTS
+%--------------------------------------------------------------
+\section{Selected Coursework Projects}
+\begin{itemize}
+  \item \textbf{Credit Card Approval Prediction} (Aug 2024) -- Cleaned a 10,000+ record
+        credit-history dataset and applied classification to derive risk insights (95\% accuracy).
+  \item \textbf{Titanic Survival Prediction} (Feb 2024) -- Preprocessing and feature
+        engineering for predictive modeling (87\% accuracy).
+\end{itemize}
+
+%--------------------------------------------------------------
+% ADDITIONAL EXPERIENCE
+%--------------------------------------------------------------
+\section{Additional Experience}
+\begin{itemize}
+  \item \textbf{Customer Service Representative}, Concentrix -- Amazon Business Account
+        (Jul -- Oct 2025): resolved 90+ B2B inquiries/day with a 95\% CSAT rating and 15\% fewer escalations.
+  \item \textbf{Freelance Academic Writer}, Livingston Research (2022 -- 2023): 5+ academic papers/month.
+\end{itemize}
+
+%--------------------------------------------------------------
+% LANGUAGES
+%--------------------------------------------------------------
+\section{Languages}
+\noindent
+\textbf{Arabic:} Native \quad\textbar\quad
+\textbf{English:} C1 -- Advanced Proficiency (Certified by EF SET)
+
+\end{document}
