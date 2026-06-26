@@ -5,8 +5,8 @@ Computer Science.
 
 ## Files
 
-- `Abdelrahman_Wageh_CV_TeachingAssistant.tex` — LaTeX source.
-- `Abdelrahman_Wageh_CV_TeachingAssistant.pdf` — Compiled PDF.
+- `Abdelrahman_Wageh_Ta.tex` — LaTeX source.
+- `Abdelrahman_Wageh_Ta.pdf` — Compiled PDF.
 
 ## Highlights
 
@@ -25,7 +25,7 @@ Computer Science.
 The CV uses only standard LaTeX packages. Compile with `pdflatex`:
 
 ```bash
-pdflatex Abdelrahman_Wageh_CV_TeachingAssistant.tex
+pdflatex Abdelrahman_Wageh_Ta.tex
 ```
 
 Required packages: `lmodern`, `microtype`, `geometry`, `enumitem`, `titlesec`,
