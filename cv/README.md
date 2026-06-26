@@ -26,14 +26,14 @@ Only standard TeX Live packages are used (`geometry`, `enumitem`, `titlesec`,
 
 ## What changed vs. the original
 - Added the **Intelcia (Optimum Account – Home Phone Department)** role
-  (Dec 2024 – Jun 2025, ~7 months) and highlighted the home-phone/landline
-  experience, since it maps directly to Community Phone's product.
+  (current, Dec 2025 – Jun 2026) as the most recent position and highlighted the
+  B2C / U.S. residential home-phone/landline experience, since it maps directly
+  to Community Phone's product.
 - Reframed the summary and skills toward customer support + remote work
   (the data-science framing was de-emphasized but kept under Skills/Projects-free).
 
 ## Please verify before sending
-- **Intelcia dates:** interpreted "15/12 – 30/6" as **Dec 2024 – Jun 2025**.
-  Adjust the year if that is wrong.
-- **Intelcia bullets/metrics:** these describe typical home-phone CSR duties.
-  Edit any wording or numbers so they accurately reflect what you did.
+- **Intelcia dates:** set to **Dec 2025 – Jun 2026** (current role).
+- **Intelcia bullets:** written in present tense and describe typical home-phone
+  CSR duties. Edit any wording so it accurately reflects what you do.
 - **Location** for Intelcia is set to Cairo, Egypt — change if needed.
