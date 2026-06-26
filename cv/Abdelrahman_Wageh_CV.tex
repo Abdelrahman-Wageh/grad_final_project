@@ -1,0 +1,131 @@
+%==============================================================
+% Abdelrahman Wageh Mohamed -- Resume
+% Target role: Remote Customer Service Representative @ Community Phone
+% Design goal: clean, single-column, ATS-friendly (parsable plain text,
+% standard section headings, no images/columns/icons).
+%==============================================================
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[margin=1.2cm]{geometry}
+\linespread{1.0}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+
+% --- ATS-friendly metadata ---
+\hypersetup{
+  pdftitle={Abdelrahman Wageh Mohamed - Resume},
+  pdfauthor={Abdelrahman Wageh Mohamed},
+  pdfsubject={Customer Service Representative},
+  pdfkeywords={Customer Service, Remote, Home Phone, Landline, Technical Support, Billing, CRM}
+}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% --- Section styling (kept simple so parsers read the headings) ---
+\definecolor{accent}{HTML}{1A1A1A}
+\titleformat{\section}
+  {\large\bfseries\scshape\color{accent}}
+  {}{0em}{}[\vspace{2pt}\hrule\vspace{4pt}]
+\titlespacing{\section}{0pt}{8pt}{3pt}
+
+% Tighten list spacing
+\setlist[itemize]{leftmargin=1.3em, topsep=0pt, itemsep=1pt, parsep=0pt, partopsep=0pt}
+
+% Helper for an experience entry:  {Title}{Dates}{Org}{Location}
+\newcommand{\role}[4]{%
+  \vspace{1pt}%
+  \noindent\textbf{#1}\hfill\textbf{#2}\\[0.5pt]%
+  \textit{#3}\hfill\textit{#4}\par\vspace{1pt}%
+}
+
+\begin{document}
+
+%--------------------------------------------------------------
+% HEADER
+%--------------------------------------------------------------
+\begin{center}
+  {\LARGE\bfseries Abdelrahman Wageh Mohamed}\\[3pt]
+  {\normalsize Customer Service Representative}\\[4pt]
+  \small
+  Cairo, Egypt \,\textbar\, +20 101 319 9783 \,\textbar\,
+  \href{mailto:abdelrahamanwagieh@gmail.com}{abdelrahamanwagieh@gmail.com}\\[1pt]
+  \href{https://www.linkedin.com/in/abdelrahman-wageh-036503365/}{linkedin.com/in/abdelrahman-wageh}
+  \,\textbar\,
+  \href{https://github.com/Abdelrahman-Wageh}{github.com/Abdelrahman-Wageh}
+\end{center}
+
+%--------------------------------------------------------------
+% SUMMARY
+%--------------------------------------------------------------
+\section{Professional Summary}
+Customer Service Representative with hands-on experience supporting
+\textbf{U.S.-based residential (B2C) home phone (landline)} subscribers and
+B2B clients in high-volume contact-center environments. Skilled in troubleshooting service and billing
+issues, de-escalating frustrated customers, and delivering first-contact
+resolution while meeting quality and CSAT targets. Comfortable working
+independently in a fully remote setup, with strong English (C1) and a
+customer-first, problem-solving mindset.
+
+%--------------------------------------------------------------
+% EXPERIENCE
+%--------------------------------------------------------------
+\section{Experience}
+
+\role{Customer Service Representative -- Home Phone}{Dec 2025 -- Jun 2026}{Intelcia (Optimum Account, Home Phone Department)}{Cairo, Egypt}
+\begin{itemize}
+  \item Deliver inbound B2C support for \textbf{U.S.-based residential} Optimum \textbf{home phone / landline} subscribers, handling activations, plan changes, billing questions, and service troubleshooting.
+  \item Diagnose and resolve landline connectivity, dial-tone, voicemail, and call-quality issues, walking customers through step-by-step fixes and escalating line faults when required.
+  \item Resolve billing disputes and process account updates accurately while following compliance guidelines.
+  \item Apply empathy and de-escalation techniques to retain customers and protect satisfaction scores across a high-volume queue.
+\end{itemize}
+
+\role{Customer Service Representative}{Jul 2025 -- Oct 2025}{Concentrix (Amazon Business Account)}{Cairo, Egypt}
+\begin{itemize}
+  \item Managed a high volume of inquiries, resolving 90+ B2B issues per day across complex order and billing cases.
+  \item Maintained a 95\% Customer Satisfaction (CSAT) rating while consistently meeting internal quality and performance KPIs.
+  \item Reduced complaint escalations by 15\% via active listening and de-escalation, driving first-contact resolution.
+\end{itemize}
+
+\role{Freelance Academic Writer}{Aug 2022 -- Oct 2023}{Livingston Research}{Remote}
+\begin{itemize}
+  \item Delivered high-quality, well-researched content, completing an average of 5 papers per month while adhering to strict guidelines and deadlines.
+\end{itemize}
+
+\role{Junior Teaching Assistant}{Jul 2021 -- Sep 2021}{Zewail City of Science and Technology}{Giza, Egypt}
+\begin{itemize}
+  \item Provided one-on-one guidance to 40+ students, simplifying Python concepts and supporting a class-wide 10\% increase in module completion rates.
+\end{itemize}
+
+%--------------------------------------------------------------
+% SKILLS
+%--------------------------------------------------------------
+\section{Skills}
+\begin{itemize}
+  \item \textbf{Customer Support:} Inbound call handling, troubleshooting, billing \& account management, complaint resolution, de-escalation, customer retention, first-contact resolution.
+  \item \textbf{Communication:} Active listening, clear written \& verbal English, empathy, conflict resolution.
+  \item \textbf{Tools \& Systems:} Salesforce (CRM), ticketing platforms, Microsoft Office (Word, Excel, PowerPoint), SQL, Power BI.
+  \item \textbf{Work Style:} Remote-ready, self-managed, KPI- and quality-focused, dependable, detail-oriented.
+\end{itemize}
+
+%--------------------------------------------------------------
+% EDUCATION
+%--------------------------------------------------------------
+\section{Education}
+\role{B.Sc. in Computer Science -- AI \& Data Science}{Oct 2022 -- Jun 2026}{Egypt-Japan University of Science and Technology (E-JUST)}{Borg El Arab, Alexandria, Egypt}
+
+%--------------------------------------------------------------
+% LANGUAGES
+%--------------------------------------------------------------
+\section{Languages}
+\noindent
+\textbf{Arabic:} Native \quad\textbar\quad
+\textbf{English:} C1 -- Advanced Proficiency (Certified by EF SET)
+
+\end{document}
